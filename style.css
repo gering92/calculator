@@ -1,0 +1,34 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+h1 span {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.calculatorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 5px solid black;
+}
+
+.calculatorScreen {
+    width: 90%;
+    height: 50px;
+    background-color: lightgrey;
+    margin: 10px;
+}
